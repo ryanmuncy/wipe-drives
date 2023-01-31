@@ -4,7 +4,7 @@ session=wipe
 
 sysmon=htop
 
-iomon=iptop
+iomon=iotop
 
 drive1=/dev/sdb
 drive2=/dev/sdc
