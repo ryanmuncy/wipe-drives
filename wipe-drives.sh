@@ -1,15 +1,20 @@
 #!/bin/bash
 
+#Tmux session name
 session=wipe
 
+#System monitor
 sysmon=htop
 
+#Disk Monitor
 iomon=iotop
 
+#Drives to be wiped
 drive1=/dev/sdb
 drive2=/dev/sdc
 drive3=/dev/sdd
 drive4=/dev/sde
+
 
 tmux new -d -s "$session"
 tmux set -g mouse on
